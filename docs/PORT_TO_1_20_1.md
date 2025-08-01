@@ -19,3 +19,6 @@ This document tracks initial work on bringing the classic mod up to date with th
 4. Rework network code to use `ForgeNetworking`.
 
 This file will expand as the port progresses.
+
+## Progress
+- Basic mod entry point and item DeferredRegister created. A sample item `ancient_fruit` now loads in game for verification.

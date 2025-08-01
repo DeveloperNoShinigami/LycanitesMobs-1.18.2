@@ -8,4 +8,4 @@ This mods makes use of LWJGL using basic GL11 methods to render and animate basi
 See the mod website: http://lycanitesmobs.com
 
 ## Forge 1.20.1 Port
-Initial groundwork for porting the mod to the latest Forge release lives in this repository. See `docs/PORT_TO_1_20_1.md` for the current roadmap and build instructions.
+Work has begun on updating the mod for Minecraft 1.20.1. A simple item registration system is now implemented as a proof of concept. See `docs/PORT_TO_1_20_1.md` for details and build instructions.
