@@ -21,4 +21,5 @@ This document tracks initial work on bringing the classic mod up to date with th
 This file will expand as the port progresses.
 
 ## Progress
-- Basic mod entry point and item DeferredRegister created. A sample item `ancient_fruit` now loads in game for verification.
+- Basic mod entry point and item `DeferredRegister` created. A sample item `ancient_fruit` now loads in game for verification.
+- Block registration added with a placeholder block `test_block`.
