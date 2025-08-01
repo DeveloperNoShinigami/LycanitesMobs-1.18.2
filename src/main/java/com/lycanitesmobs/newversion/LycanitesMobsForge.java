@@ -3,6 +3,7 @@ package com.lycanitesmobs.newversion;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
+import com.lycanitesmobs.newversion.ModItems;
 
 /**
  * Entry point for the Forge 1.20.1 port.
@@ -14,6 +15,7 @@ public class LycanitesMobsForge {
 
     public LycanitesMobsForge() {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
-        // TODO: Register blocks, items and entities using DeferredRegister
+        ModItems.ITEMS.register(modEventBus);
+        // TODO: Register blocks and entities using DeferredRegister
     }
 }
